@@ -1,0 +1,13 @@
+{
+    "name": "pemonsi/recipes-project",
+    "require": {
+        "chillerlan/php-qrcode": "^5.0",
+        "stichoza/google-translate-php": "^5.3"
+    },
+    "authors": [
+        {
+            "name": "pedromontesi",
+            "email": "joaopedromonteiro090@hotmail.com"
+        }
+    ]
+}
