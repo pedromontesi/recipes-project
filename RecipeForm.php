@@ -3,21 +3,15 @@
 <?php
 
 class RecipeForm implements StepsInterface {
-    protected string $name;
-    protected array $ingredients;
+    protected array $ingredient;
 
-    public function __construct($name, $ingredients) {
-        $this->name = $name;
-        $this->ingredients = $ingredients;
+    public function __construct($ingredient) {
+        $this->ingredient = $ingredient;
 
     }
 
-    public function getName() {
-        return $this->name;
-    }
-
-    public function getIngredients() {
-        return $this->ingredients;
+    public function getIngredient() {
+        return $this->ingredient;
     }
 
     public function getSteps(array $steps):array {

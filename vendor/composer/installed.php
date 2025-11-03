@@ -1,9 +1,9 @@
 <?php return array(
     'root' => array(
         'name' => 'pemonsi/recipes-project',
-        'pretty_version' => '1.0.0+no-version-set',
-        'version' => '1.0.0.0',
-        'reference' => null,
+        'pretty_version' => 'dev-main',
+        'version' => 'dev-main',
+        'reference' => '71c8ce3017d83cf485efbed51296c689f1f2735f',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -56,9 +56,9 @@
             'dev_requirement' => false,
         ),
         'pemonsi/recipes-project' => array(
-            'pretty_version' => '1.0.0+no-version-set',
-            'version' => '1.0.0.0',
-            'reference' => null,
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
+            'reference' => '71c8ce3017d83cf485efbed51296c689f1f2735f',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
@@ -119,9 +119,9 @@
             'dev_requirement' => false,
         ),
         'stichoza/google-translate-php' => array(
-            'pretty_version' => 'v5.3.0',
-            'version' => '5.3.0.0',
-            'reference' => '2891310296cc115786d7c135a47a4ed53cd38df1',
+            'pretty_version' => 'v5.3.1',
+            'version' => '5.3.1.0',
+            'reference' => '4d9a267ac063c16967df67dcba30a71fbfb5f550',
             'type' => 'library',
             'install_path' => __DIR__ . '/../stichoza/google-translate-php',
             'aliases' => array(),
