@@ -2,8 +2,10 @@
 
 <?php
 
+require_once 'StepsInterface.php';
+
 class RecipeForm implements StepsInterface {
-    protected array $ingredient;
+    private array $ingredient;
 
     public function __construct($ingredient) {
         $this->ingredient = $ingredient;
@@ -14,8 +16,8 @@ class RecipeForm implements StepsInterface {
         return $this->ingredient;
     }
 
-    public function getSteps(array $steps):array {
-        return $this->steps[] = $steps;
-
+    public function getSteps(): array
+    {
+        return $this->steps = $steps = [];
     }
 }

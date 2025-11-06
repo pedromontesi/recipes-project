@@ -2,7 +2,5 @@
 
 interface StepsInterface
 {
-    public function getSteps(array $steps):array;
-
-
+    public function getSteps(): array;
 }

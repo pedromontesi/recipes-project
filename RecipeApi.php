@@ -5,7 +5,7 @@ class RecipeApi
 
     private $search;
 
-    private $baseUrl = "www.themealdb.com/api/json/v1/1/";
+    private $baseUrl = "https://www.themealdb.com/api/json/v1/1/";
 
     private $response;
 
@@ -129,10 +129,6 @@ class RecipeApi
     }
 
 }
-
-$recipeApi = new RecipeApi("milk");
-$meals = $recipeApi->getMeals();
-print_r($meals);
 
 
 
