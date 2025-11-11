@@ -1,20 +1,19 @@
 <?php
 
 class RecipeApi {
-    private $search;
-    private $baseUrl = "https://www.themealdb.com/api/json/v1/1/search.php?s=";
+    private $ingredient;
+    private $baseUrl = "https://www.themealdb.com/api/json/v1/1/filter.php?i=";
 
-    public function search($search) {
-        $this->search = $search;
-        $url = $this->baseUrl . urlencode($search);
+    public function search($ingredient) {
+        $this->ingredient = $ingredient;
+        $url = $this->baseUrl . urlencode($ingredient);
 
         $response = file_get_contents($url);
         $data = json_decode($response, true);
 
-        return $data['ingredient'] ?? [];
+        return $data['meals'] ?? [];
     }
 
 
 }
-$recipeApi = new RecipeApi();
-print_r($recipeApi->search('milk'));
+
