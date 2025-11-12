@@ -2,7 +2,7 @@
 
 class RecipeApi {
     private $ingredient;
-    private $baseUrl = "https://www.themealdb.com/api/json/v1/1/filter.php?i=";
+    private string $baseUrl = "https://www.themealdb.com/api/json/v1/1/filter.php?i=";
 
     public function search($ingredient) {
         $this->ingredient = $ingredient;

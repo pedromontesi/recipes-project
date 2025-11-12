@@ -1,5 +1,5 @@
 <?php
-require_once "RecipeApi.php";
+require_once "/var/www/html/recipes-project/app/Api/RecipeApi.php";
 
 ?>
 <!doctype html>
@@ -26,9 +26,9 @@ require_once "RecipeApi.php";
 
 
 <?php
-
-
-
-
+if(isset($_GET['ingredients'])){
+    $recipeEx = new RecipeApi();
+    echo($recipeEx->search($_GET['ingredients']));
+}
 
 ?>
