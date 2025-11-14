@@ -2,5 +2,7 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/obs-v4l2sink" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/obs-v4l2sink/build/v4l2loopback" vcs="Git" />
   </component>
 </project>

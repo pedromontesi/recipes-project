@@ -1,5 +1,6 @@
 <?php
-require_once "/var/www/html/recipes-project/app/Api/RecipeApi.php";
+
+require_once __DIR__ . '/../app/Api/RecipeApi.php';
 
 ?>
 <!doctype html>

@@ -2,9 +2,10 @@
 
 //Apenas para teste
 
-require __DIR__ . '/vendor/autoload.php';
+require __DIR__ . '/../vendor/autoload.php';
+require __DIR__ . '/../app/Facades/TranslateFacade.php';
 
-require_once __DIR__ . 'TranslateFacade.php';
+
 
 $tr = new TranslateFacade('pt');
 
