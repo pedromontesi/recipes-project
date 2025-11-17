@@ -19,7 +19,7 @@ require_once __DIR__ . '/../app/Api/RecipeApi.php';
                type="text"
                placeholder="Ex.: Ovos, Leite, Manteiga."
                value="<?= htmlspecialchars($_GET['ingredients'] ?? '') ?>">
-        <button type="submit">Buscar</button>
+        <button type="submit">Search</button>
     </form>
 </div>
 </body>

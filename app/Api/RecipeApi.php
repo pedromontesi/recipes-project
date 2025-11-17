@@ -13,7 +13,5 @@ class RecipeApi {
 
         return $data['meals'] ?? [];
     }
-
-
 }
 
